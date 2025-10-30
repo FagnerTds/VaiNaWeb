@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 14vh;
+  border-bottom: solid 2px #b4aeae;
+  margin: 0 2rem;
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  h1 {
+    font-size: 2.5rem;
+    color: #1f2937;
+  }
+}
+
+.navbar {
+  ul {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    a {
+      color: #4b5563;
+    }
+    li:last-child {
+      background-color: #21c05c;
+      padding: 15px 30px;
+      border-radius: 10px;
+      cursor: pointer;
+      a {
+        color: #fff;
+      }
+    }
+  }
+}
+
+.first {
+  margin: 3rem 2rem;
+  height: 500px;
+  display: flex;
+  align-items: center;
+}
+.first-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  h2 {
+    font-size: 3.75rem;
+    line-height: 1.2;
+    color: #1f2937;
+  }
+  p {
+    font-family: "Inter", sans-serif;
+    color: #4b5563;
+    font-size: 1.25rem;
+  }
+}
+
+.btn-content {
+  display: flex;
+  gap: 3rem;
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    height: 62px;
+    width: 189px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .btn-doar {
+    background: #16a34a;
+    color: #fff;
+  }
+  .btn-adquirir {
+    background-color: #fff;
+    border: solid 2px #2563eb;
+    color: #2563eb;
+
+  }
+}
+
+.numeros {
+  background-color: #f3f5f8;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 20vh;
+  article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #4b5563;
+  }
+  .resultado {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #16a34a;
+  }
+}
+
+.second {
+  margin: 5rem 5rem;
+  h2 {
+    font-size: 2.5rem;
+    color: #1f2937;
+  }
+  h3 {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #1f2937;
+  }
+}
+.second-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 3rem 0;
+  gap: 1rem;
+  justify-content: center;
+  article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: #f3f5f8;
+    border-radius: 0.5rem;
+    height: 70vh;
+    width: 70vh;
+    padding: 2rem;
+  }
+
+  p {
+    color: #4b5563;
+  }
+  .atc-doadores {
+    h4 {
+      font-size: 1.6rem;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      height: 60px;
+      font-weight: 400;
+      color: #16a34a;
+    }
+  }
+  .atr-container {
+    display: flex;
+    gap: 0.5rem;
+    align-items: start;
+    margin: 2.5rem 0;
+    span {
+      font-size: 1rem;
+      border: solid;
+      color: #fff;
+      background: #16a34a;
+      width: 2rem;
+      height: 2rem;
+      text-align: center;
+      border-radius: 1rem;
+    }
+    dt {
+      font-weight: 700;
+    }
+    dd {
+      color: #4b5563;
+    }
+  }
+
+  .atc-Adquirentes {
+    h4 {
+      display: flex;
+      align-items: center;
+      font-size: 1.6rem;
+      gap: 1rem;
+      color: #2563eb;
+      font-weight: 400;
+    }
+    p {
+      color: #4b5563;
+      margin: 1rem 0;
+    }
+    span{
+      background: #2563EB;
+    }
+  }
+}
+
+//https://www.figma.com/design/INr6aFPBtyoln3RR26U7Jq/A%C3%A7%C3%A3o-verde---Desafio?node-id=0-1&p=f&t=CMFWxeuDkmYywXV2-0

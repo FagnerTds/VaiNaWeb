@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 14vh;
+  border-bottom: solid 2px #b4aeae;
+  margin: 0 2rem;
+}
+header .logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+header h1 {
+  font-size: 2.5rem;
+  color: #1f2937;
+}
+
+.navbar ul {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.navbar ul a {
+  color: #4b5563;
+}
+.navbar ul li:last-child {
+  background-color: #21c05c;
+  padding: 15px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.navbar ul li:last-child a {
+  color: #fff;
+}
+
+.first {
+  margin: 3rem 2rem;
+  height: 500px;
+  display: flex;
+  align-items: center;
+}
+
+.first-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.first-content h2 {
+  font-size: 3.75rem;
+  line-height: 1.2;
+  color: #1f2937;
+}
+.first-content p {
+  font-family: "Inter", sans-serif;
+  color: #4b5563;
+  font-size: 1.25rem;
+}
+
+.btn-content {
+  display: flex;
+  gap: 3rem;
+}
+.btn-content button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  height: 62px;
+  width: 189px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.btn-content .btn-doar {
+  background: #16a34a;
+  color: #fff;
+}
+.btn-content .btn-adquirir {
+  background-color: #fff;
+  border: solid 2px #2563eb;
+  color: #2563eb;
+}
+
+.numeros {
+  background-color: #f3f5f8;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 20vh;
+}
+.numeros article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #4b5563;
+}
+.numeros .resultado {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #16a34a;
+}
+
+.second {
+  margin: 5rem 5rem;
+}
+.second h2 {
+  font-size: 2.5rem;
+  color: #1f2937;
+}
+.second h3 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #1f2937;
+}
+
+.second-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 3rem 0;
+  gap: 1rem;
+  justify-content: center;
+}
+.second-container article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background: #f3f5f8;
+  border-radius: 0.5rem;
+  height: 70vh;
+  width: 70vh;
+  padding: 2rem;
+}
+.second-container p {
+  color: #4b5563;
+}
+.second-container .atc-doadores h4 {
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  height: 60px;
+  font-weight: 400;
+  color: #16a34a;
+}
+.second-container .atr-container {
+  display: flex;
+  gap: 0.5rem;
+  align-items: start;
+  margin: 2.5rem 0;
+}
+.second-container .atr-container span {
+  font-size: 1rem;
+  border: solid;
+  color: #fff;
+  background: #16a34a;
+  width: 2rem;
+  height: 2rem;
+  text-align: center;
+  border-radius: 1rem;
+}
+.second-container .atr-container dt {
+  font-weight: 700;
+}
+.second-container .atr-container dd {
+  color: #4b5563;
+}
+.second-container .atc-Adquirentes h4 {
+  display: flex;
+  align-items: center;
+  font-size: 1.6rem;
+  gap: 1rem;
+  color: #2563eb;
+  font-weight: 400;
+}
+.second-container .atc-Adquirentes p {
+  color: #4b5563;
+  margin: 1rem 0;
+}
+.second-container .atc-Adquirentes span {
+  background: #2563EB;
+}/*# sourceMappingURL=style.css.map */

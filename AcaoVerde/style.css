@@ -55,7 +55,7 @@ header .principal a {
 .artigos .card {
   background: #fff;
   border-radius: 15px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
   overflow: hidden;
   width: 250px;
   height: 350px;
@@ -89,16 +89,69 @@ header .principal a {
 }
 
 .formulario {
-  background: #f4faf4;
+  background: #E8F5E9;
   padding: 4rem;
   display: grid;
-  gap: 10px;
+  gap: 30px;
   text-align: center;
+}
+.formulario h3 {
+  font-size: 2rem;
+  color: #2A2A2A;
+}
+.formulario p {
+  color: #767676;
+  margin-bottom: 20px;
 }
 .formulario form {
   display: grid;
   gap: 10px;
   place-items: center;
-  width: 600px;
-  margin: 0 auto;
+}
+.formulario input, .formulario select {
+  padding: 20px;
+  width: 40vw;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+.formulario input::-moz-placeholder {
+  font-size: 20px;
+  color: #8E8E8E;
+  text-align: center;
+}
+.formulario input::placeholder {
+  font-size: 20px;
+  color: #8E8E8E;
+  text-align: center;
+}
+.formulario select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='gray' height='20' viewBox='0 0 24 24' width='1' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+  background-size: 20px;
+  cursor: pointer;
+}
+.formulario select option {
+  background: white;
+  color: #333;
+  font-size: 1rem;
+  padding: 10px;
+}
+.formulario select option::value {
+  font-size: 30px;
+}
+
+.js-scroll {
+  opacity: 0;
+  transform: translate3d(-30px, 0, 0);
+  transition: 0.3s;
+}
+
+.js-scroll.ativo {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
 }/*# sourceMappingURL=style.css.map */
