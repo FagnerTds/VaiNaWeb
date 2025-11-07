@@ -187,31 +187,48 @@ header .menu li:last-child a {
   margin: 0 auto;
   padding: 70px 0;
 }
-.como-funciona h2 {
+@media (max-width: 500px) {
+  .como-funciona {
+    max-width: 90vw;
+  }
+}
+
+.titulo {
   font-size: 2.5rem;
   font-weight: 700;
 }
-.como-funciona h3 {
+
+.subtitulo {
   font-size: 1.6rem;
   font-family: "Inter", sans-serif;
-  color: #1F2937;
+  color: #4B5563;
   padding: 30px 0;
 }
 
 .second-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  justify-content: center;
+  justify-items: center;
   gap: 40px;
-  align-items: stretch;
+}
+@media (max-width: 950px) {
+  .second-container {
+    grid-template-columns: 1fr;
+  }
 }
 .second-container .card {
   padding: 50px 30px;
-  background: #F3F5F8;
+  background: #f3f5f8;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  align-items: center;
+  max-width: 440px;
+}
+@media (max-width: 500px) {
+  .second-container .card {
+    padding: 20px 20px;
+  }
 }
 .second-container .card h4 {
   font-size: 1.6rem;
@@ -219,14 +236,24 @@ header .menu li:last-child a {
   align-items: center;
   gap: 10px;
   font-weight: 400;
+  height: 60px;
+}
+@media (max-width: 500px) {
+  .second-container .card h4 {
+    font-size: 1.3rem;
+    height: auto;
+  }
 }
 .second-container .card p {
-  color: #4B5563;
+  color: #4b5563;
   padding: 30px 0;
 }
 .second-container .card .container-definition {
-  display: grid;
-  gap: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+  flex-grow: 1;
 }
 .second-container .card .atr-container {
   display: flex;
@@ -240,6 +267,11 @@ header .menu li:last-child a {
   border-radius: 50%;
   text-align: center;
 }
+.second-container .card dt {
+  color: #09090b;
+  font-weight: 700;
+  font-size: 1rem;
+}
 .second-container .card--doadores h4 {
   color: #16a34a;
 }
@@ -248,9 +280,63 @@ header .menu li:last-child a {
   background: #16a34a;
 }
 .second-container .card--adquirentes h4 {
-  color: #2563EB;
+  color: #2563eb;
 }
 .second-container .card--adquirentes span {
   color: #fff;
-  background: #2563EB;
+  background: #2563eb;
+}
+
+.produtos-disponiveis {
+  background: #F3F5F8;
+}
+
+.produtos-container {
+  max-width: 80vw;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.card-Container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 30px 0;
+}
+.card-Container .card-p {
+  border: solid 2px #21c05c;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+}
+.card-Container .card-p div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 10px;
+  height: 100%;
+}
+.card-Container .card-p img {
+  max-width: 100%;
+  display: block;
+}
+.card-Container .card-p h4 {
+  font-family: inter;
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: #09090B;
+}
+.card-Container .card-p button {
+  background: #16a34a;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.85rem;
+}
+.card-Container .card-p p {
+  color: #4B5563;
 }/*# sourceMappingURL=style.css.map */
