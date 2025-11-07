@@ -180,4 +180,77 @@ header .menu li:last-child a {
   .numeros .resultado {
     font-size: 1.5rem;
   }
+}
+
+.como-funciona {
+  max-width: 80vw;
+  margin: 0 auto;
+  padding: 70px 0;
+}
+.como-funciona h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.como-funciona h3 {
+  font-size: 1.6rem;
+  font-family: "Inter", sans-serif;
+  color: #1F2937;
+  padding: 30px 0;
+}
+
+.second-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  gap: 40px;
+  align-items: stretch;
+}
+.second-container .card {
+  padding: 50px 30px;
+  background: #F3F5F8;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.second-container .card h4 {
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 400;
+}
+.second-container .card p {
+  color: #4B5563;
+  padding: 30px 0;
+}
+.second-container .card .container-definition {
+  display: grid;
+  gap: 40px;
+}
+.second-container .card .atr-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.second-container .card .atr-container span {
+  border: solid;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  text-align: center;
+}
+.second-container .card--doadores h4 {
+  color: #16a34a;
+}
+.second-container .card--doadores span {
+  color: #fff;
+  background: #16a34a;
+}
+.second-container .card--adquirentes h4 {
+  color: #2563EB;
+}
+.second-container .card--adquirentes span {
+  color: #fff;
+  background: #2563EB;
 }/*# sourceMappingURL=style.css.map */

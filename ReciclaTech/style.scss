@@ -151,8 +151,86 @@ header {
     font-size: 2.5rem;
     color: #16a34a;
     font-weight: 700;
+
     @media (max-width: 560px) {
       font-size: 1.5rem;
+    }
+  }
+}
+
+.como-funciona{
+  max-width: 80vw;
+  margin: 0 auto;
+  padding: 70px 0;
+  h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+  h3{
+    font-size: 1.6rem;
+    font-family: "Inter", sans-serif;
+    color: #1F2937;
+    padding: 30px 0;
+  }
+}
+.second-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  gap: 40px;
+  align-items: stretch;
+  .card{
+    padding: 50px 30px;
+    background: #F3F5F8;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    h4{
+      font-size: 1.6rem;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 400;
+    }
+    p{
+      color: #4B5563;
+      padding: 30px 0;
+    }
+    .container-definition{
+      display: grid;
+      gap: 40px;
+      // grid-template-rows: repeat(3, 1fr);
+    }
+    .atr-container{
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      span{
+        border: solid;
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        text-align: center;
+      }
+    }
+    &--doadores{
+      h4{
+        color: #16a34a;
+      }
+      span{
+        color: #fff;
+        background: #16a34a;
+      }
+    }
+    &--adquirentes{
+      h4{
+        color: #2563EB;
+      }
+      span{
+        color: #fff;
+        background: #2563EB;
+      }
     }
   }
 }
